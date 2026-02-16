@@ -6,11 +6,10 @@ run dev server:
 npm run dev
 ```
 
-
 # Initial setup steps
 This are the steps I first took to setup the repo and get vercel deployment working e2e.
 
-0) install vercel cli (for deployment)
+0) install vercel cli (for production deployment)
 
 ```bash
 npm i -g vercel
@@ -20,7 +19,7 @@ npm i -g vercel
 (choose no for all options, except don't use App Router)
 
 ```bash 
-npx create-next-app story-generator-app
+npx create-next-app@15.5.9 story-generator-app --typescript
 ```
 
 2) Replace nextjs backend with fastapi:
