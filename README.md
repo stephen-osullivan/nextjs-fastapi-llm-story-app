@@ -1,6 +1,9 @@
 # nextjs-fastapi-llm-story-app
 A simple app that combines nextjs, fastapi and chatgpt to generate stories.
 
+App Screenshot running in production in Vercel.
+![App Screenshot](images/story-generator-app-ss.png)
+
 run dev server:
 ```bash
 npm run dev
